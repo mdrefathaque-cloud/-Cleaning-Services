@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SparkleClean | Home & Commercial Cleaning Services</title>
+<meta name="description" content="SparkleClean offers professional, eco-friendly home and office cleaning. Get a free quote today.">
+<meta property="og:title" content="SparkleClean | A Cleaner Space, A Happier Place">
+<meta property="og:description" content="Professional home and commercial cleaning with eco-friendly products.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=70">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><i class="fa-solid fa-broom"></i></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="logo"><i class="fa-solid fa-broom"></i> SparkleClean</a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+      <a href="#quote" class="btn btn-green">Get a Free Quote</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <span class="blob b1"></span><span class="blob b2"></span>
+  <div class="wrap grid2">
+    <div class="hero-txt">
+      <h1>A Cleaner Space, A Happier Place.</h1>
+      <p>Professional home and commercial cleaning by a trained, insured team using eco-friendly products. Book in minutes and come home to a space that feels brand new.</p>
+      <div class="cta"><a href="#quote" class="btn btn-green">Book a Cleaning</a><a href="#services" class="btn btn-ghost">Explore Services</a></div>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&q=70" alt="Cleaner wiping a kitchen counter with a cloth" width="900" height="700" fetchpriority="high">
+      <div class="float f1"><i class="fa-solid fa-face-smile"></i><b>500+</b> Happy Clients</div>
+      <div class="float f2"><i class="fa-solid fa-star"></i><b>5-Star</b> Rated Service</div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap stat-grid">
+    <div><b class="count" data-to="500" data-suffix="+">0</b><span>Happy Clients</span></div>
+    <div><b class="count" data-to="1200" data-suffix="+">0</b><span>Projects Completed</span></div>
+    <div><b class="count" data-to="5" data-suffix="+">0</b><span>Years of Experience</span></div>
+    <div><b class="count" data-to="100" data-suffix="%">0</b><span>Satisfaction Focus</span></div>
+  </div>
+</section>
+
+<section class="sec" id="about">
+  <div class="wrap grid2">
+    <img class="rv rounded" loading="lazy" src="https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=70" alt="Cleaning team preparing supplies" width="800" height="600">
+    <div class="rv">
+      <h2>We Make Clean Feel Effortless.</h2>
+      <p>SparkleClean is a team of trained professionals who treat every home and workplace with care. We bring our own eco-friendly supplies, show up on time, and pay attention to the details others miss.</p>
+      <ul class="feat">
+        <li><i class="fa-solid fa-leaf"></i><span><b>Eco-friendly products</b> Safe for kids and pets.</span></li>
+        <li><i class="fa-solid fa-user-check"></i><span><b>Vetted professionals</b> Trained and background-checked.</span></li>
+        <li><i class="fa-solid fa-magnifying-glass"></i><span><b>Attention to detail</b> A checklist for every room.</span></li>
+      </ul>
+      <a href="#why" class="btn btn-navy">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="services">
+  <div class="wrap">
+    <div class="head rv"><h2>Cleaning Services</h2><p>Choose the service that fits your space.</p></div>
+    <div class="cards">
+      <article class="card rv"><i class="fa-solid fa-house"></i><h3>Residential Cleaning</h3><p>Regular upkeep for kitchens, bathrooms, bedrooms, and living areas.</p><a href="#quote" data-service="Residential Cleaning">Learn More</a></article>
+      <article class="card rv"><i class="fa-solid fa-building"></i><h3>Office Cleaning</h3><p>Tidy workspaces that keep your team healthy and clients impressed.</p><a href="#quote" data-service="Office Cleaning">Learn More</a></article>
+      <article class="card rv"><i class="fa-solid fa-soap"></i><h3>Deep Cleaning</h3><p>Top-to-bottom scrubbing, including baseboards, appliances, and grout.</p><a href="#quote" data-service="Deep Cleaning">Learn More</a></article>
+      <article class="card rv"><i class="fa-solid fa-truck-ramp-box"></i><h3>Move-In / Move-Out</h3><p>Empty-property cleaning that helps you hand over or settle in.</p><a href="#quote" data-service="Move-In / Move-Out Cleaning">Learn More</a></article>
+      <article class="card rv"><i class="fa-solid fa-couch"></i><h3>Carpet &amp; Upholstery</h3><p>Stain treatment and fresh-feeling fabrics for rugs, sofas, and chairs.</p><a href="#quote" data-service="Carpet & Upholstery Cleaning">Learn More</a></article>
+      <article class="card rv"><i class="fa-solid fa-window-maximize"></i><h3>Window Cleaning</h3><p>Streak-free glass, frames, and sills, inside and out.</p><a href="#quote" data-service="Window Cleaning">Learn More</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="why">
+  <div class="wrap grid2">
+    <div class="rv"><h2>Why Choose SparkleClean</h2><p>Reliable cleaning should be simple. Here is what you can expect every visit.</p></div>
+    <div class="why">
+      <div class="rv"><i class="fa-solid fa-user-tie"></i>Experienced Cleaning Professionals</div>
+      <div class="rv"><i class="fa-solid fa-leaf"></i>Eco-Friendly Products</div>
+      <div class="rv"><i class="fa-solid fa-calendar-check"></i>Flexible Scheduling</div>
+      <div class="rv"><i class="fa-solid fa-tag"></i>Affordable Pricing</div>
+      <div class="rv"><i class="fa-solid fa-shield-halved"></i>Trusted &amp; Insured Team</div>
+      <div class="rv"><i class="fa-solid fa-face-smile"></i>Satisfaction-Focused Service</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="how">
+  <div class="wrap">
+    <div class="head rv"><h2>How It Works</h2></div>
+    <ol class="steps">
+      <li class="rv"><span>1</span><h3>Request a Quote</h3><p>Tell us about your space.</p></li>
+      <li class="rv"><span>2</span><h3>Choose Your Service</h3><p>Pick a plan and a time.</p></li>
+      <li class="rv"><span>3</span><h3>We Clean Your Space</h3><p>Our team handles the rest.</p></li>
+      <li class="rv"><span>4</span><h3>Enjoy the Fresh Results</h3><p>Relax in a spotless place.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="pricing">
+  <div class="wrap">
+    <div class="head rv"><h2>Pricing Plans</h2><p>Sample prices. Edit the amounts directly in the HTML.</p></div>
+    <div class="cards price">
+      <article class="card rv"><h3>Basic Clean</h3><div class="amt">$<span>49</span></div><p class="dur">About 1–2 hours</p><ul><li>Dusting and surface wipe-down</li><li>Vacuum and mop floors</li><li>Kitchen and bathroom refresh</li></ul><a href="#quote" class="btn btn-navy" data-service="Residential Cleaning">Book Now</a></article>
+      <article class="card pop rv"><em>Most Popular</em><h3>Standard Clean</h3><div class="amt">$<span>89</span></div><p class="dur">About 2–3 hours</p><ul><li>Everything in Basic</li><li>Inside microwave and fridge front</li><li>Baseboards and door frames</li><li>Bed making and trash removal</li></ul><a href="#quote" class="btn btn-green" data-service="Residential Cleaning">Book Now</a></article>
+      <article class="card rv"><h3>Premium Deep Clean</h3><div class="amt">$<span>149</span></div><p class="dur">About 4–6 hours</p><ul><li>Everything in Standard</li><li>Inside oven and cabinets</li><li>Grout and tile scrubbing</li><li>Window sills and tracks</li></ul><a href="#quote" class="btn btn-navy" data-service="Deep Cleaning">Book Now</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="results">
+  <div class="wrap narrow">
+    <div class="head rv"><h2>See the Difference</h2><p>Drag the handle to compare. Sample images; replace with your own before/after photos.</p></div>
+    <div class="cmp rv" id="cmp">
+      <img class="after" src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=70" alt="After cleaning: bright, spotless surface" loading="lazy">
+      <img class="before" src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=70" alt="Before cleaning: dull, dirty surface" loading="lazy">
+      <span class="tag tl">Before</span><span class="tag tr">After</span>
+      <span class="knob"><i class="fa-solid fa-arrows-left-right"></i></span>
+      <input type="range" min="0" max="100" value="50" aria-label="Before and after comparison slider">
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="reviews">
+  <div class="wrap narrow">
+    <div class="head rv"><h2>What Clients Say</h2><p>Sample reviews for layout. Replace with real customer feedback.</p></div>
+    <div class="slider rv" id="slider">
+      <div class="track">
+        <figure class="slide"><div class="av">AR</div><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>The team was punctual and thorough. My kitchen has never looked this good.</blockquote><figcaption>Amina R.</figcaption></figure>
+        <figure class="slide"><div class="av">DK</div><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>We use SparkleClean for our office every week. Reliable and easy to schedule.</blockquote><figcaption>Daniel K.</figcaption></figure>
+        <figure class="slide"><div class="av">SM</div><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>The move-out clean helped us get our deposit back. Highly recommended.</blockquote><figcaption>Sara M.</figcaption></figure>
+      </div>
+      <div class="ctrl"><button id="prev" aria-label="Previous review"><i class="fa-solid fa-chevron-left"></i></button><div id="dots"></div><button id="next" aria-label="Next review"><i class="fa-solid fa-chevron-right"></i></button></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="quote">
+  <div class="wrap narrow">
+    <div class="head rv"><h2>Book a Cleaning or Get a Free Quote</h2><p>Fill in the form and we will get back to you.</p></div>
+    <form id="bookForm" class="form rv" novalidate>
+      <label>Full Name<input name="name" required autocomplete="name"></label>
+      <label>Email Address<input type="email" name="email" required autocomplete="email"></label>
+      <label>Phone Number<input type="tel" name="phone" required autocomplete="tel"></label>
+      <label>Cleaning Service Type<select name="service" id="service" required><option value="">Select a service</option><option>Residential Cleaning</option><option>Office Cleaning</option><option>Deep Cleaning</option><option>Move-In / Move-Out Cleaning</option><option>Carpet &amp; Upholstery Cleaning</option><option>Window Cleaning</option></select></label>
+      <label>Property Size<select name="size" required><option value="">Select size</option><option>Studio / 1 bedroom</option><option>2–3 bedrooms</option><option>4+ bedrooms</option><option>Small office</option><option>Large office</option></select></label>
+      <label>Preferred Date<input type="date" name="date" id="date" required></label>
+      <label>Preferred Time<select name="time" required><option value="">Select a time</option><option>Morning (8–12)</option><option>Afternoon (12–4)</option><option>Evening (4–7)</option></select></label>
+      <label>Address<input name="address" required autocomplete="street-address"></label>
+      <label class="full">Additional Message<textarea name="message" rows="3"></textarea></label>
+      <button class="btn btn-green full" type="submit">Request Quote</button>
+      <p class="msg full" id="formMsg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="wrap narrow">
+    <div class="head rv"><h2>Frequently Asked Questions</h2></div>
+    <div class="faq">
+      <div class="q"><button aria-expanded="false">What cleaning services do you offer?</button><div class="a"><p>We offer residential, office, deep, move-in/move-out, carpet and upholstery, and window cleaning.</p></div></div>
+      <div class="q"><button aria-expanded="false">Do I need to provide cleaning supplies?</button><div class="a"><p>No. Our team brings its own equipment and eco-friendly products.</p></div></div>
+      <div class="q"><button aria-expanded="false">Can I reschedule my booking?</button><div class="a"><p>Yes. Contact us at least 24 hours before your appointment to change the date or time.</p></div></div>
+      <div class="q"><button aria-expanded="false">Are your cleaning products eco-friendly?</button><div class="a"><p>Yes. We use plant-based, low-toxicity products that are gentle on kids and pets.</p></div></div>
+      <div class="q"><button aria-expanded="false">How much does a cleaning service cost?</button><div class="a"><p>Sample plans start at $49. Your final price depends on property size and service type, so request a free quote.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="contact">
+  <div class="wrap grid2">
+    <div class="rv">
+      <h2>Contact Us</h2>
+      <p class="note">Sample business information. Replace before launch.</p>
+      <ul class="info">
+        <li><i class="fa-solid fa-envelope"></i>hello@example.com</li>
+        <li><i class="fa-solid fa-phone"></i>+1 (555) 000-0000</li>
+        <li><i class="fa-solid fa-location-dot"></i>123 Sample Street, Your City</li>
+        <li><i class="fa-solid fa-clock"></i>Mon–Sat, 8:00 AM – 6:00 PM</li>
+      </ul>
+      <div class="social"><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></div>
+      <div class="map" role="img" aria-label="Map placeholder"><i class="fa-solid fa-map-location-dot"></i> Google Maps embed goes here</div>
+    </div>
+    <form id="contactForm" class="form one rv" novalidate>
+      <label>Name<input name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Message<textarea name="message" rows="4" required></textarea></label>
+      <button class="btn btn-navy" type="submit">Send Message</button>
+      <p class="msg" id="contactMsg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap fgrid">
+    <div><a href="#home" class="logo light"><i class="fa-solid fa-broom"></i> SparkleClean</a><p>Eco-friendly home and commercial cleaning you can count on.</p></div>
+    <div><h4>Quick Links</h4><a href="#about">About</a><a href="#pricing">Pricing</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a></div>
+    <div><h4>Our Services</h4><a href="#services">Residential</a><a href="#services">Office</a><a href="#services">Deep Cleaning</a><a href="#services">Windows</a></div>
+    <div><h4>Newsletter</h4><form id="newsForm" novalidate><label class="sr" for="nEmail">Email</label><input id="nEmail" type="email" placeholder="Your email" required><button class="btn btn-green" type="submit">Subscribe</button></form><p class="msg" id="newsMsg" role="status" aria-live="polite"></p>
+    <div class="social"><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></div></div>
+  </div>
+  <p class="copy">&copy; <span id="year">2026</span> SparkleClean. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
